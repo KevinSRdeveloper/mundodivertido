@@ -1,0 +1,614 @@
+@font-face {
+    font-family: 'PopSweet';
+    src: url('../Assets/Fonts/Pop\ Sweet.ttf');
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: PopSweet, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+
+.sect-star{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.art-textStar{
+    width: 100%;
+    max-width: 1440px;
+    
+}
+
+.text-titleStar{
+    width: 100%;
+    text-align: center;
+   
+}
+
+.text-titleStar h2{
+    text-shadow: 4px 4px 2px #fcfc03;
+    font-size: 2em;
+
+}
+
+
+.fig-star{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    
+}
+
+.fig-star img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: 50% 50%;
+    filter: drop-shadow(-2px 2px 15px #fcfc03);
+
+}
+
+.art-textStart{
+    max-width: 1440px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.btn-vamosChatear{
+    background: none;
+    border: none;
+    outline: none;
+    background-color: #fcfc03;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.fig-redes{
+    width: 100%;
+    margin: 1em 0;
+}
+
+.fig-redes i{
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+ 
+.decoration-start{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: rgba(255, 166, 0, 0.549);
+    z-index: -99;
+}
+ 
+
+.bi-facebook{
+    color: blue;
+}
+.bi-whatsapp{
+    color: green;
+}
+.bi-youtube{
+    color: red;
+}
+
+.bi-instagram{
+    color: rgb(174, 20, 115);
+}
+
+
+/*SLIDER */
+
+.slider{
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.slider-inner img{
+    width: 100%;
+}
+
+.decoracionUno{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-image: url(../Assets/Img/decoracionSlider.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+.decoracionDos{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-image: url(../Assets/Img/decoracionSliderDos.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+
+/*ABOUT*/
+.sect-about{
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(../Assets/Img/background-circule.png);
+   
+    background-size:  contain;
+    
+}
+
+
+.sect-about h2{
+    padding-top: 2.5em;
+    text-align: center;
+    color: palevioletred;
+}
+
+.card{
+    width: 90%;
+    height: 450px;
+    margin: 4em auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 19px 1px purple;
+
+}
+
+.card-img{
+    width: 100%;
+    height: 50%;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-text{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background-color: #fff;
+   
+}
+
+.card-text h3{
+    font-size: 0.8em;
+    text-align: center;
+    margin: 1em;
+    color: palevioletred
+}
+
+.card-text p{
+    font-size: 0.7em;
+    padding: 0.5em;
+    line-height: 2em
+}
+
+.card-text button{
+    background: none;
+    border: none;
+    outline: none;
+    background: #fcfc03;
+    padding: 0.5em;
+    border-radius: 12px;
+    box-shadow: 0px 0px 19px 1px purple;
+}
+
+
+
+.art-about{
+    width: 100%;
+    background-color: orange;
+    position: relative;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.art-textAbout{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    
+}
+
+.fig-about{
+    width: 80%;
+    height: 450px;
+    position: absolute;
+    bottom: -40%;
+    right: -20%;
+    
+   
+}
+
+.fig-about img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-fit: 50% 50%;
+    opacity: 0.2;
+}
+
+.art-mas{
+    width: 100%;
+    
+    position: relative;
+    padding: 1em;
+    overflow: hidden;
+
+}
+
+.text-mas{
+    height: auto;
+}
+
+.card-mas{
+    height: auto;
+}
+
+.container-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+.text-footer{
+    text-align: center;
+}
+
+
+ 
+.fig-footer{
+    width: 60%;
+    height: 200px;
+
+}
+
+.fig-footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+.redes-footer{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.container-footer p{
+    font-size: 0.5em;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+   
+}  
+
+
+@media (min-width: 1024px) {
+    .sect-star{
+        max-width: 1440px;
+        height: 100vh;
+        margin: 0 auto;
+        flex-direction: row;
+        align-items: center;
+       
+    }
+
+    .fig-star{
+      
+        height: 500px;
+    }
+
+    .position-uno{
+        order: 2;
+    }
+
+    .art-textStar{
+      
+        height: 100%;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .text-titleStar{
+        text-align: start;
+       
+    }
+
+    .text-titleStar h2{
+        font-size: 2.5em;
+        display: inline-block;
+        margin-left: 0.5em;
+    }
+
+    .text-titleStar p{
+        font-size: 1.5em;
+        margin-left: 1em;
+       
+    }
+    .art-textStart{
+        position: relative;
+        height: 50%;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin: 0;
+    }
+
+    .art-textStart p{
+        font-size: 1.3em;
+        margin-left: 1em;
+    }
+
+    .position-startText2{
+        order: 4;
+        margin-top: 1em;
+        margin-left: 1em;
+
+       
+    }
+    
+    .btn-vamosChatear{
+        width: 50%;
+        cursor: pointer;
+    }
+
+    .btn-vamosChatear:hover{
+        background-color: #d9e106;
+    }
+
+    .fig-redes i{
+        font-size: 3em;
+    }
+
+    .decoration-start{
+        width: 50%;
+        border-top-left-radius: 40%;
+        border-bottom-left-radius: 40%;
+    }
+
+    .slider {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .slider-inner {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .slider-image {
+        width: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        flex-shrink: 0;
+    }
+
+    .decoracionUno{
+        height: 50px;
+    }
+    .decoracionDos{
+        background-size: 100% 100%;
+    }
+
+    .sect-about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sect-about h2{
+        width: 100%;
+    }
+
+    .card{
+        width: 90%;
+        flex-direction: row;
+    }
+
+
+    .card-img{
+        width: 50%;
+        height: 100%;
+    }
+
+    .card-text{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-text h3{
+        font-size: 1.5em;
+    }
+    .card-text p{
+        font-size: 1em;
+    }
+
+    .circule{
+        width: 650px;
+        height: 650px;
+        background-color: orange;
+        border-radius: 50%;
+        position: absolute;
+        top: -20%;
+        left: -10%;
+        z-index: -99;
+    }
+
+    .art-about{
+        display: flex;
+    }
+
+    .art-textAbout{
+        width: 80%;
+        text-align: start;
+        
+    }
+
+    .art-textAbout h2{
+        font-size: 2.2em;
+        
+    }
+    .art-textAbout p{
+        font-size: 1.5em;
+        padding: 1em;
+    }
+
+    .fig-about{
+        position: relative;
+        width: 50%;
+        bottom: 0%;
+        right: 0%;
+
+    }
+
+    .fig-about img{
+
+        opacity: 5;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+       
+        object-position: 100% ;
+     
+        filter: drop-shadow(2px 2px 15px #171717);
+
+    }
+
+    
+    .art-mas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 55px;
+        height: auto;
+    }
+
+    .art-mas h2{
+        width: 100%;
+        font-size: 2.5em;
+    }
+
+    .card-mas{
+        width: 35%;
+        height: 650px;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .text-mas{
+        width: 100%;
+    }
+
+    .img-mas{
+        width: 100%;
+        
+    }
+
+
+    .container-footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-top-right-radius: 5%;
+        border-top-left-radius: 5%;
+     
+    }
+
+    .text-footer{
+        width: 40%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        text-align: start;
+        font-size: 0.8em;
+        
+    }
+
+    .fig-footer{
+        width: 30%;
+    }
+
+
+    .redes-footer{
+        width: 48%;
+        justify-content: end;
+    }
+
+    .redes-footer i{
+        font-size: 2em;
+        margin: 0.3em;
+    }
+
+    .container-footer p{
+        width: 100%;
+        text-align: end;
+    }
+
+    
+.card-text button{
+   width: 40%;
+   position: relative;
+   left: 50%;
+   top: 10%;
+}
+
+
+
+   
+
+  
+   
+}                                  
