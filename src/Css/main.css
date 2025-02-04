@@ -12,12 +12,50 @@
 
 }
 
+.bar-navigation{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: orange;
+}
+
+
+.link-nav{
+    font-size: 0.4em;
+    letter-spacing: 1px;
+    color: #353535;
+    text-decoration: none;
+}
+
+.link-nav:hover{
+    border-bottom: 4px solid purple;
+    height: 100%;
+    line-height: 50px;
+    color: #eeecec;
+}
+
+.logo-nav{
+    width: 15%;
+    height: 100%;
+
+}
+
+.logo-nav img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-fit: 50% 50%;
+}
+
 .sect-star{
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
     
 }
 
@@ -27,6 +65,8 @@
     
 }
 
+
+
 .text-titleStar{
     width: 100%;
     text-align: center;
@@ -34,7 +74,7 @@
 }
 
 .text-titleStar h2{
-    text-shadow: 4px 4px 2px #fcfc03;
+    text-shadow: 4px 4px 2px orange;
     font-size: 2em;
 
 }
@@ -52,7 +92,7 @@
     height: 100%;
     object-fit: contain;
     object-position: 50% 50%;
-    filter: drop-shadow(-2px 2px 15px #fcfc03);
+    filter: drop-shadow(-2px 2px 15px orange);
 
 }
 
@@ -91,6 +131,12 @@
     border-bottom-left-radius: 50%;
     background-color: rgba(255, 166, 0, 0.549);
     z-index: -99;
+}
+
+.sobre-img{
+    background-color: none;
+    background-image: url("../Assets/Img/nino-1.png");
+    opacity: ;
 }
  
 
@@ -326,6 +372,10 @@
 
 
 @media (min-width: 1024px) {
+
+    .link-nav{
+        font-size: 0.8em;
+    }
     .sect-star{
         max-width: 1440px;
         height: 100vh;
@@ -334,6 +384,8 @@
         align-items: center;
        
     }
+
+
 
     .fig-star{
       
@@ -355,6 +407,13 @@
         
     }
 
+    .sobre-start{
+        height:0%;
+    }
+
+   
+    
+
     .text-titleStar{
         text-align: start;
        
@@ -371,6 +430,13 @@
         margin-left: 1em;
        
     }
+
+    .text-titleStar .text-titleStar-sobre{
+        font-size: 0.9em;
+        margin-top: 1em;
+        line-height: 30px;
+    }
+
     .art-textStart{
         position: relative;
         height: 50%;
