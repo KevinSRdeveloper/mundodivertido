@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mundodivertido/static/css/main.fcadb17e.css",
-    "main.js": "/mundodivertido/static/js/main.21a77f79.js",
+    "main.css": "/mundodivertido/static/css/main.f525c15d.css",
+    "main.js": "/mundodivertido/static/js/main.5897963f.js",
     "static/media/card-2.png": "/mundodivertido/static/media/card-2.4facce659e244c279066.png",
     "static/media/logo.png": "/mundodivertido/static/media/logo.ade8ec06df4c9613572b.png",
     "static/media/card-1.png": "/mundodivertido/static/media/card-1.f5c1912c60fca5e6767e.png",
@@ -18,11 +18,11 @@
     "static/media/decoracionSlider.png": "/mundodivertido/static/media/decoracionSlider.24fc0376517347b2c63d.png",
     "static/media/background-circule.png": "/mundodivertido/static/media/background-circule.08906206a763b49024f9.png",
     "index.html": "/mundodivertido/index.html",
-    "main.fcadb17e.css.map": "/mundodivertido/static/css/main.fcadb17e.css.map",
-    "main.21a77f79.js.map": "/mundodivertido/static/js/main.21a77f79.js.map"
+    "main.f525c15d.css.map": "/mundodivertido/static/css/main.f525c15d.css.map",
+    "main.5897963f.js.map": "/mundodivertido/static/js/main.5897963f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcadb17e.css",
-    "static/js/main.21a77f79.js"
+    "static/css/main.f525c15d.css",
+    "static/js/main.5897963f.js"
   ]
 }
