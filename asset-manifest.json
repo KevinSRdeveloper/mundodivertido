@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/mundodivertido/static/css/main.f525c15d.css",
-    "main.js": "/mundodivertido/static/js/main.024fb55b.js",
+    "main.css": "/mundodivertido/static/css/main.d8ca4a99.css",
+    "main.js": "/mundodivertido/static/js/main.b8a3f8d8.js",
+    "static/media/slider-4.jpg": "/mundodivertido/static/media/slider-4.5367cd8d2c3f0f4fb21f.jpg",
     "static/media/card-2.png": "/mundodivertido/static/media/card-2.4facce659e244c279066.png",
     "static/media/logo.png": "/mundodivertido/static/media/logo.ade8ec06df4c9613572b.png",
     "static/media/card-1.png": "/mundodivertido/static/media/card-1.f5c1912c60fca5e6767e.png",
@@ -13,16 +14,15 @@
     "static/media/nino-2.png": "/mundodivertido/static/media/nino-2.bf55c254ae096b74fe6b.png",
     "static/media/decoracionSliderDos.png": "/mundodivertido/static/media/decoracionSliderDos.fed5eff4b6504cf46085.png",
     "static/media/slider-1.jpg": "/mundodivertido/static/media/slider-1.d0162810e0fdfab00c52.jpg",
-    "static/media/slider-4.jpg": "/mundodivertido/static/media/slider-4.07c1c9bf0a5e893c3a8c.jpg",
     "static/media/Pop Sweet.ttf": "/mundodivertido/static/media/Pop Sweet.27f87b575fc6789c29b4.ttf",
     "static/media/decoracionSlider.png": "/mundodivertido/static/media/decoracionSlider.24fc0376517347b2c63d.png",
     "static/media/background-circule.png": "/mundodivertido/static/media/background-circule.08906206a763b49024f9.png",
     "index.html": "/mundodivertido/index.html",
-    "main.f525c15d.css.map": "/mundodivertido/static/css/main.f525c15d.css.map",
-    "main.024fb55b.js.map": "/mundodivertido/static/js/main.024fb55b.js.map"
+    "main.d8ca4a99.css.map": "/mundodivertido/static/css/main.d8ca4a99.css.map",
+    "main.b8a3f8d8.js.map": "/mundodivertido/static/js/main.b8a3f8d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.f525c15d.css",
-    "static/js/main.024fb55b.js"
+    "static/css/main.d8ca4a99.css",
+    "static/js/main.b8a3f8d8.js"
   ]
 }
