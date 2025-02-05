@@ -20,8 +20,8 @@ root.render(
         <Routes>
           <Route path="/" element={
               <>
-                <StarPage />,
-                <SliderPage />,
+                <StarPage />
+                <SliderPage />
                 <AboutPage />
               </>
           }/>

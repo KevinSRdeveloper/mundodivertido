@@ -21,13 +21,15 @@ const SliderPage = () => {
 
     return (
         <div className="slider">
+             <span className="decoracionUno"></span>
           
             <span className="decoracionDos"></span>
-            <div className="slider-inner" style={{ transform: `translateX(-${currentIndex * 100}%)`, transition: "transform 1s ease-in-out" }}>
-                {images.map((src, index) => (
-                    <img key={index} src={src} alt={`Slide ${index + 1}`} className="slider-image" />
-                ))}
-            </div>
+                <div className="slider-inner" style={{ transform: `translateX(-${currentIndex * 100}%)`, transition: "transform 1s ease-in-out" }}>
+                    {images.map((src, index) => (
+                        <img key={index} src={src} alt={`Slide ${index + 1}`} className="slider-image" />
+                    ))}
+                </div>
+
         </div>
     );
 };

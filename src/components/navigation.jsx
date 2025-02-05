@@ -18,14 +18,8 @@ const NavigationPage = () => {
                 <i className="bi bi-person-circle"></i>
                 Sobre Nosotros
             </Link>
-           {/*  <Link to="/proyetos" className="link-nav">
-                <i class="bi bi-pencil-square"></i>
-                Galleria
-            </Link>
-            <Link to="/contactame" className="link-nav">
-                <i className="bi bi-envelope-paper-fill"></i>
-                Contactanos
-            </Link> */}
+            <h2 className="h2-navigation">Mundo Divertido</h2>
+
        </nav>
 
         
